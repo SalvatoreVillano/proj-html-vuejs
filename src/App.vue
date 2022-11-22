@@ -1,5 +1,5 @@
 <template>
-  <HeaderComponent />
+  <HeaderComponent :headerMenu="headerElem" />
   <MainComponent />
   <FooterComponent />
 </template>
@@ -10,7 +10,31 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 
 export default {
-  components: { HeaderComponent, MainComponent, FooterComponent }
+  components: { HeaderComponent, MainComponent, FooterComponent },
+  data() {
+    return {
+      headerElem: [
+        {
+          name: 'Home'
+        },
+        {
+          name: 'About'
+        },
+        {
+          name: 'Services'
+        },
+        {
+          name: 'Process'
+        },
+        {
+          name: 'Team'
+        },
+        {
+          name: 'Blog'
+        }
+      ]
+    }
+  }
 }
 </script>
 
