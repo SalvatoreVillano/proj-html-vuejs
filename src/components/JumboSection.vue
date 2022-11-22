@@ -2,7 +2,7 @@
     <section>
         <div class="container d-flex justify-content-end align-items-center">
             <div class="jumbo">
-                <div class="textSection fw-bold">Fusion & Acquisitions</div>
+                <div class="textSection">Fusion & Acquisitions</div>
                 <p class="display-4 fw-bold secondTextSection">Insurance <br> Consulting</p>
                 <div class="inputzone">
                     <input class="mt-1 me-3" type="text" placeholder="Name">
@@ -42,12 +42,6 @@ section {
 
 .jumbo {
     width: 50%;
-}
-
-.textSection {
-    text-transform: uppercase;
-    color: $section-text;
-    font-size: 13px;
 }
 
 .secondTextSection {

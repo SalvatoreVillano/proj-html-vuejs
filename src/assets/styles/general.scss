@@ -11,8 +11,7 @@ $fa-font-path: '../webfonts';
  @import 'bootstrap/scss/bootstrap';
 
 
- 
- 
+
  body{
     font-family: $main-font;
     color: $main-text;
@@ -33,4 +32,11 @@ $fa-font-path: '../webfonts';
     background-color: rgba(255, 255, 255, 0);
     color: $button-bg;
     border-radius: 5px;
+}
+
+.textSection {
+    text-transform: uppercase;
+    color: $section-text;
+    font-size: 13px;
+    font-weight: bold;
 }

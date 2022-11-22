@@ -52,6 +52,7 @@ export default {
 
     .elem {
         font-size: 16px;
+        color: $black-text;
     }
 }
 </style>
