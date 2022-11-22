@@ -8,8 +8,8 @@
                 <div class="topheaderright mt-2">
                     <span><i class="fa-solid fa-phone"></i> +1 (305) 1234-5678</span>
                     <span class="mx-4"><i class="fa-solid fa-envelope"></i> hello@example.com</span>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter mx-4"></i>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                     <div v-for="(item, index) in headerMenu" :key="index" class="elem px-3 mt-3">
                         {{ item.name }}
                     </div>
-                    <button class="mybtn rounded-2 px-3 py-2 mt-3 ms-3">Get in touch</button>
+                    <button class="mybtn px-3 py-2 mt-3 ms-3">Get in touch</button>
                 </div>
             </div>
         </div>
@@ -53,13 +53,5 @@ export default {
     .elem {
         font-size: 16px;
     }
-}
-
-.mybtn {
-    text-transform: uppercase;
-    border: 2px solid $button-bg;
-    background-color: $button-bg;
-    color: white;
-    text-decoration: none;
 }
 </style>
