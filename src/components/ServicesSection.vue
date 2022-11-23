@@ -6,11 +6,12 @@
                     <div class="textSection">Our business areas</div>
                     <p class="secondTextSection fs-1 fw-bold mt-2">Excellence in <span
                             class="textBg py-1 px-2 rounded-1">Services</span> </p>
-                    <p>We are leaders in providing consultancy services with a set of cutting-edge technologies and a
+                    <p class="subText">We are leaders in providing consultancy services with a set of cutting-edge
+                        technologies and a
                         team of experienced and renowned professionals. These are some options that you can hire.</p>
                 </div>
                 <div>
-                    <button class="mybtn">See all</button>
+                    <button class="mybtn mt-3 me-2 px-3 py-2">See all</button>
                 </div>
             </div>
             <div class="d-flex flex-wrap justify-content-between">
@@ -79,6 +80,13 @@ export default {
 
 section {
     background-color: $section-light-bg;
+
+}
+
+.container {
+    position: relative;
+    left: 50px;
+    width: 60%;
 }
 
 .secondTextSection {
@@ -88,6 +96,10 @@ section {
 .textBg {
     color: $button-bg;
     background-color: $bg-text-light;
+}
+
+.subText {
+    font-size: 15px;
 }
 
 .serviceSection {

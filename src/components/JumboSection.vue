@@ -31,9 +31,10 @@ export default {
 
 section {
     background-image: url('../assets/img/bg-6.jpg');
-    background-position: 30%;
+    background-position: center;
+    background-repeat: repeat;
     height: 750px;
-    margin-top: -70px;
+    margin-top: -68px;
 
     .container {
         height: 80%;
@@ -58,6 +59,5 @@ select {
     color: $main-text;
     border: 0;
     border-radius: 3px;
-    font-size: 13px;
 }
 </style>

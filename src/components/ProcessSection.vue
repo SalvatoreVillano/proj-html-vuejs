@@ -1,6 +1,6 @@
 <template>
     <section class="py-5 text-center">
-        <div class="container">
+        <div class="container my-4">
             <div>
                 <div class="textSection">How it works in practice</div>
                 <p class="secondTextSection fs-1 fw-bold mt-2"><span class="textBg py-1 px-2 rounded-1">Process</span>
@@ -93,7 +93,7 @@ export default {
 }
 
 .subText {
-    font-size: 13px;
+    font-size: 15px;
 }
 </style>
 

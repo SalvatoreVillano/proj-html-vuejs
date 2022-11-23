@@ -55,7 +55,7 @@ section {
 }
 
 .subText {
-    font-size: 11px;
+    font-size: 12px;
     width: 50%;
     font-weight: 400;
 
