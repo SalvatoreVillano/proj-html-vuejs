@@ -84,22 +84,22 @@ export default {
           section: 'Support',
           elem: [
             {
-              name: 'The company'
+              name: 'Responsability'
             },
             {
-              name: 'Institutional'
+              name: 'Term of use'
             },
             {
-              name: 'Social & Events'
+              name: 'About cookies'
             },
             {
-              name: 'Innovation'
+              name: 'Privacy Policy'
             },
             {
-              name: 'Environment'
+              name: 'Accessibility'
             },
             {
-              name: 'Technology'
+              name: 'Information'
             },
           ],
         },
