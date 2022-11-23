@@ -41,7 +41,7 @@ footer {
 }
 
 .footerCard {
-    width: 15%;
+    width: 20%;
 }
 
 .myCard {
