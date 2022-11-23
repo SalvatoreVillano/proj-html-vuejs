@@ -55,6 +55,7 @@ section {
 }
 
 .subText {
+    color: $main-text;
     font-size: 12px;
     width: 50%;
     font-weight: 400;

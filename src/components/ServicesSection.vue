@@ -17,50 +17,50 @@
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="cardService mt-4">
                     <div class="d-flex justify-content-between">
-                        <i class="fa-solid fa-network-wired"></i>
+                        <i class="fa-solid fa-network-wired mx-2 my-2"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Audit & Assurance</p>
+                    <p class="fw-bold fs-5 mt-3 text-dark">Audit & Assurance</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="cardService mt-4">
                     <div class="d-flex justify-content-between">
-                        <i class="fa-solid fa-briefcase"></i>
+                        <i class="fa-solid fa-briefcase mx-2 my-2"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Financial Advisory</p>
+                    <p class="fw-bold fs-5 mt-3 text-dark">Financial Advisory</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="cardService mt-4">
                     <div class="d-flex justify-content-between">
-                        <i class="fa-solid fa-chart-simple"></i>
+                        <i class="fa-solid fa-chart-simple mx-2 my-2"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Analytics and M&A</p>
+                    <p class="fw-bold fs-5 mt-3 text-dark">Analytics and M&A</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="cardService mt-4">
                     <div class="d-flex justify-content-between">
-                        <i class="fa-solid fa-plane-up"></i>
+                        <i class="fa-solid fa-plane-up mx-2 my-2"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Middle Marketing</p>
+                    <p class="fw-bold fs-5 mt-3 text-dark">Middle Marketing</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="cardService mt-4">
                     <div class="d-flex justify-content-between">
-                        <i class="fa-solid fa-earth-europe"></i>
+                        <i class="fa-solid fa-earth-europe mx-2 my-2"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Legal Consulting</p>
+                    <p class="fw-bold fs-5 mt-3 text-dark">Legal Consulting</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="cardService mt-4">
                     <div class="d-flex justify-content-between">
-                        <i class="fa-solid fa-box"></i>
+                        <i class="fa-solid fa-box mx-2 my-2"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Regulatory Risk</p>
+                    <p class="fw-bold fs-5 mt-3 text-dark">Regulatory Risk</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
             </div>
@@ -111,5 +111,10 @@ section {
     padding: 15px;
     background-color: $white-text;
     border-radius: 5px;
+
+    i {
+        color: $section-text;
+        font-size: 30px;
+    }
 }
 </style>

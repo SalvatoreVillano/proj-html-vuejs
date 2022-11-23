@@ -1,7 +1,7 @@
 <template>
   <HeaderComponent :headerMenu="headerElem" />
   <MainComponent />
-  <FooterComponent />
+  <FooterComponent :footerMenu="FooterElem" />
 </template>
 
 <script>
@@ -32,6 +32,77 @@ export default {
         {
           name: 'Blog'
         }
+      ],
+      FooterElem: [
+        {
+          section: 'About',
+          elem: [
+            {
+              name: 'The company'
+            },
+            {
+              name: 'Institutional'
+            },
+            {
+              name: 'Social & Events'
+            },
+            {
+              name: 'Innovation'
+            },
+            {
+              name: 'Environment'
+            },
+            {
+              name: 'Technology'
+            }
+          ]
+        },
+        {
+          section: 'Services',
+          elem: [
+            {
+              name: 'Audit & Assurance'
+            },
+            {
+              name: 'Financial Advisory'
+            },
+            {
+              name: 'Analytics'
+            },
+            {
+              name: 'Middle Marketing '
+            },
+            {
+              name: 'Legal Consulting'
+            },
+            {
+              name: 'Regulatory Risk'
+            }
+          ]
+        },
+        {
+          section: 'Support',
+          elem: [
+            {
+              name: 'The company'
+            },
+            {
+              name: 'Institutional'
+            },
+            {
+              name: 'Social & Events'
+            },
+            {
+              name: 'Innovation'
+            },
+            {
+              name: 'Environment'
+            },
+            {
+              name: 'Technology'
+            },
+          ],
+        },
       ]
     }
   }
