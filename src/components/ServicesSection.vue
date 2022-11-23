@@ -35,7 +35,7 @@
                         <i class="fa-solid fa-chart-simple"></i>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                    <p>Analytics and M%A</p>
+                    <p>Analytics and M&A</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="cardService mt-4">
